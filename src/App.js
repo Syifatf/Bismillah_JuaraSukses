@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './component/navbar';
+import KProduk from './component/produk/kategoriProduk';
+import BestSeller from './component/produk/bestSeller';
+import TrendProduk from './component/produk/trendProduk';
+import Artikel from './component/artikel/artikel';
+import AboutHome from './component/About/about_home';
+import Footer from './component/footer';
+import Slidebar from './component/slidebar';
+import Kategori from './component/produk/kategori';
+import Produk from './component/produk/produk';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <AboutHome />
+      <KProduk />
+      <Slidebar />
+    
+      <BestSeller/> 
+      <TrendProduk/>
+      <Kategori />
+      <Artikel/>
+      <Footer />
+      {/* <Produk /> */}
     </div>
   );
 }
