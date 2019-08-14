@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function About() {
+class About extends Component {
+  render() {
   return (
     <div>
         <section className="bg-title-page p-t-40 p-b-50 flex-col-c-m" style={{backgroundImage: 'url(images/heading-pages-06.jpg)'}}>
@@ -38,6 +39,7 @@ function About() {
         </section>
     </div>
   );
+}
 }
 
 export default About;

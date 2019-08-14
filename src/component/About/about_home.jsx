@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function AboutHome() {
+class AboutHome extends Component {
+  render() {
   return (
     <div>
       {/* <section className="section-welcome bg1-pattern p-t-120 p-b-105">
@@ -40,17 +41,17 @@ function AboutHome() {
           UMKM
         </h3>
         <p className="t-center size32 m-l-r-auto">
-            UMKM (Usaha Mikro, Kecil, dan Menengah) memiliki jenis yaitu Jenis komoditi/ barang yang ada pada usahanya tidak tetap, atau bisa berganti sewaktu-waktu
-            Tempat menjalankan usahanya bisa berpindah sewaktu-waktu.
-            Usahanya belum menerapkan administrasi, bahkan keuangan pribadi dan keuangan usaha masih disatukan
-            Sumber daya manusia (SDM) di dalamnya belum punya jiwa wirausaha yang mumpuni.
-            Biasanya tingkat pendidikan SDM nya masih rendah.
-            Biasanya pelaku UMKM belum memiliki akses perbankan, namun sebagian telah memiliki akses ke lembaga keuangan non bank
-            Pada umumnya belum punya surat ijin usaha atau legalitas, termasuk NPWP.
+        Program UMKM Juara merupakan program yang sudah ditetapkan oleh Gubernur Jawa Barat sebagai salah satu program unggulan untuk mencapai JABAR Juara Lahir Batin melalui inovasi dan kolaborasi.
+        Program ini mendorong UMKM untuk dapat tumbuh dan berkembang dalam skala kelas usaha. Manfaat yang didapatkan oleh UMKM yang mengikuti program ini adalah penguatan diri dan manajemen usaha 
+        untuk dapat naik kelas dengan memanfaatkan teknologi dalam berbisnis, khususnya teknologi informasi.
+
+        Selain itu, akses pasar berupa pameran di Kab./Kota, tingkat provinsi Jawa Barat, antar provinsi, pameran luar negeri, serta akses pasar di marketplace. 
+        Adapun manfaat pada akses pembiayaan ke perbankan, fintech, dan program CSR investor.
         </p>
       </section>
     </div>
   );
+}
 }
 
 export default AboutHome;

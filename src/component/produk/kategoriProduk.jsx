@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from "react";
 
-function KProduk() {
+class KProduk extends Component {
+  render() {
   return (
     <div>
         <div className="new_arrivals">
@@ -179,6 +180,7 @@ function KProduk() {
       </div>
     </div>
   );
+}
 }
 
 export default KProduk;
