@@ -42,18 +42,11 @@ class Produk extends Component{
                       <h3 className="tt-collapse-title">PRODUCT CATEGORIES</h3>
                       <div className="tt-collapse-content">
                         <ul className="tt-list-row">
-                          <li className="active"><a href="#">Dresses</a></li>
-                          <li><a href="#">Shirts &amp; Tops</a></li>
-                          <li><a href="#">Polo Shirts</a></li>
-                          <li><a href="#">Sweaters</a></li>
+                          <li className="active"><a href="#">All Produk</a></li>
+                          <li><a href="#">Fashion</a></li>
+                          <li><a href="#">Batik</a></li>
+                          <li><a href="#">Elektronik</a></li>
                           <li><a href="#">Blazers &amp; Vests</a></li>
-                          <li><a href="#">Jackets &amp; Outerwear</a></li>
-                          <li><a href="#">Activewear</a></li>
-                          <li><a href="#">Pants</a></li>
-                          <li><a href="#">Jumpsuits &amp; Shorts</a></li>
-                          <li><a href="#">Jeans</a></li>
-                          <li><a href="#">Skirts</a></li>
-                          <li><a href="#">Swimwear</a></li>
                         </ul>
                       </div>
                     </div>
@@ -201,7 +194,7 @@ class Produk extends Component{
                     <div className="content-indent container-fluid-custom-mobile-padding-02">
                       <div className="tt-filters-options">
                         <h1 className="tt-title">
-                          WOMEN <span className="tt-title-total">(69)</span>
+                          All Product <span className="tt-title-total">(16)</span>
                         </h1>
                         <div className="tt-btn-toggle">
                           <a href="#">FILTER</a>

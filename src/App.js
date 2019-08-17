@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './component/navbar/navbar';
 import KProduk from './component/produk/kategoriProduk';
 import BestSeller from './component/produk/bestSeller';
 import TrendProduk from './component/produk/trendProduk';
@@ -9,27 +8,32 @@ import Footer from './component/footer';
 import Slidebar from './component/slidebar';
 import Kategori from './component/produk/kategori';
 import Produk from './component/produk/produk';
-import Navbarr from './component/navbar/nav';
 import Carausel from './component/carausel';
+import Navv from './component/navbar/nav';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbarr />
+      <Navv />
       {/* <Carausel /> */}
       <AboutHome />
-      {/* <KProduk /> */}
+      <KProduk />
       {/* <Slidebar /> */}
-{/*     
+     
       <BestSeller/> 
       <TrendProduk/>
       <Kategori />
       <Artikel/>
-      <Footer /> */}
+      <Footer /> 
       
       {/* navbar lanjutan */}
-      <Produk />
+      
+
+{/* halaman Produk */}
+
+      {/* <Produk /> */}
+
     </div>
   );
 }

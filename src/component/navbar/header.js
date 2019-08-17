@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import Slider from "react-slick";
+import Slider from "react-slick";
 
 
 class Header extends Component {
@@ -8,7 +8,7 @@ class Header extends Component {
 
       const script = document.createElement("script");
 
-      script.src = "../js/main.js";
+      script.src = "./main.js";
 
       script.async = true;
 
