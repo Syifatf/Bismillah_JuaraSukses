@@ -32,7 +32,7 @@ function App() {
 
 {/* halaman Produk */}
 
-      {/* <Produk /> */}
+      <Produk />
 
     </div>
   );

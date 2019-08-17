@@ -26,10 +26,10 @@ class Produk extends Component{
                       <div className="tt-collapse-content">
                         <ul className="tt-filter-list">
                           <li className="active">
-                            <a href="#">Shirts &amp; Tops</a>
+                            <a href="#">Batik &amp; Tops</a>
                           </li>
                           <li>
-                            <a href="#">XS</a>
+                            <a href="#">Sepatu</a>
                           </li>
                           <li>
                             <a href="#">White</a>
@@ -45,10 +45,10 @@ class Produk extends Component{
                           <li className="active"><a href="#">All Produk</a></li>
                           <li><a href="#">Fashion</a></li>
                           <li><a href="#">Batik</a></li>
-                          <li><a href="#">Elektronik</a></li>
+                          <li><a href="#">Sepatu</a></li>
                           <li><a href="#">Blazers &amp; Vests</a></li>
                         </ul>
-                      </div>
+                      </div>  
                     </div>
                     <div className="tt-collapse open">
                       <h3 className="tt-collapse-title">FILTER BY PRICE</h3>
@@ -107,11 +107,11 @@ class Produk extends Component{
                       <h3 className="tt-collapse-title">VENDOR</h3>
                       <div className="tt-collapse-content">
                         <ul className="tt-list-row">
-                          <li><a href="#">Levi's</a></li>
-                          <li><a href="#">Gap</a></li>
-                          <li><a href="#">Polo</a></li>
-                          <li><a href="#">Lacoste</a></li>
-                          <li><a href="#">Guess</a></li>
+                          <li><a href="#">Fashion</a></li>
+                          <li><a href="#">Batik</a></li>
+                          <li><a href="#">Sepatu</a></li>
+                          {/* <li><a href="#"></a></li>
+                          <li><a href="#">Guess</a></li> */}
                         </ul>
                         <a href="#" className="btn-link-02">+ More</a>
                       </div>
@@ -122,8 +122,8 @@ class Produk extends Component{
                         <div className="tt-aside">
                           <a className="tt-item" href="product.html">
                             <div className="tt-img">
-                              <span className="tt-img-default"><img src="images/loader.svg" data-src="images/product/product-01.jpg" alt="" /></span>
-                              <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-01-02.jpg" alt="" /></span>
+                              <span className="tt-img-default"><img src="images/produkk/batik1.png" data-src="images/produkk/batik1.png" alt="" /></span>
+                              <span className="tt-img-roll-over"><img src="images/produkk/batik1.png" data-src="images/produkk/batik1.png" alt="" /></span>
                             </div>
                             <div className="tt-content">
                               <h6 className="tt-title">Flared Shift Dress</h6>
@@ -135,8 +135,8 @@ class Produk extends Component{
                           </a>
                           <a className="tt-item" href="product.html">
                             <div className="tt-img">
-                              <span className="tt-img-default"><img src="images/loader.svg" data-src="images/product/product-02.jpg" alt="" /></span>
-                              <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-02-02.jpg" alt="" /></span>
+                              <span className="tt-img-default"><img src="images/produkk/sepatu2.jpg" data-src="images/produkk/sepatu2.jpg" alt="" /></span>
+                              <span className="tt-img-roll-over"><img src="images/produkk/sepatu2.jpg" data-src="images/produkk/sepatu2.jpg" alt="" /></span>
                             </div>
                             <div className="tt-content">
                               <h6 className="tt-title">Flared Shift Dress</h6>
@@ -148,8 +148,8 @@ class Produk extends Component{
                           </a>
                           <a className="tt-item" href="product.html">
                             <div className="tt-img">
-                              <span className="tt-img-default"><img src="images/loader.svg" data-src="images/product/product-03.jpg" alt="" /></span>
-                              <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-03-02.jpg" alt="" /></span>
+                              <span className="tt-img-default"><img src="images/produkk/sepatu1.jpeg" data-src="images/produkk/sepatu1.jpeg" alt="" /></span>
+                              <span className="tt-img-roll-over"><img src="images/produkk/sepatu1.jpeg" data-src="images/produkk/sepatu1.jpeg" alt="" /></span>
                             </div>
                             <div className="tt-content">
                               <h6 className="tt-title">Flared Shift Dress</h6>
@@ -162,7 +162,7 @@ class Produk extends Component{
                         </div>
                       </div>
                     </div>
-                    <div className="tt-collapse open">
+                    {/* <div className="tt-collapse open">
                       <h3 className="tt-collapse-title">TAGS</h3>
                       <div className="tt-collapse-content">
                         <ul className="tt-list-inline">
@@ -182,8 +182,8 @@ class Produk extends Component{
                           <li><a href="#">Skirts</a></li>
                           <li><a href="#">Swimwear</a></li>
                         </ul>
-                      </div>
-                    </div>
+                      </div> */}
+                    {/* </div> */}
                     <div className="tt-content-aside">
                       <a href="listing-left-column.html" className="tt-promo-03">
                         <img src="images/custom/listing_promo_img_07.jpg" alt="" />
@@ -228,8 +228,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-18.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-18-01.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/prod1.jpeg" data-src="images/produkk/prod1.jpeg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/prod1.jpeg" data-src="images/produkk/prod1.jpeg" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
@@ -269,8 +269,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-05.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-05-02.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/prod2.jpg" data-src="images/produkk/prod2.jpg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/prod2.jpg" data-src="images/product/produkk/prod2.jpg" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
@@ -310,8 +310,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-01.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-01-02.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/prodL1.jpg" data-src="images/produkk/prodL1.jpg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/prodL1.jpg" data-src="images/produkk/prodL1.jpg" alt="" /></span>
                               </a>
                               <div className="tt-countdown_box">
                                 <div className="tt-countdown_inner">
@@ -363,8 +363,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-45.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-45-01.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/prodL2.jpg" data-src="images/produkk/prodL2.jpg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/prodL2.jpg" data-src="images/produkk/prodL2.jpg" alt="" /></span>
                               </a>
                               <div className="tt-countdown_box">
                                 <div className="tt-countdown_inner">
@@ -416,8 +416,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-14.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-14-01.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/batik1.png" data-src="images/produkk/batik1.png" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/batik1.png"data-src="images/produkk/batik1.png" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
@@ -457,8 +457,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-15.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-15-01.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/batik2.png" data-src="images/produkk/batik2.png" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/batik2.png" data-src="images/produkk/batik2.png" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
@@ -499,8 +499,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-08.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-08-02.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/batik3.jpg" data-src="images/produkk/batik3jpg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/batik3.jpg" data-src="images/produkk/batik3.jpg" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
@@ -540,8 +540,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-28.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-28-01.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/sepatu1.jpeg" data-src="images/produkk/sepatu1.jpeg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/sepatu1.jpeg" data-src="images/produkk/sepatu1.jpeg" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
@@ -587,8 +587,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-19.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-19-01.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/sepatu2.jpg" data-src="images/produkk/sepatu2.jpg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/sepatu2.jpg" data-src="images/produkk/sepatu2.jpg" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
@@ -629,8 +629,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-25.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-25-01.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/sepatu3.jpg" data-src="images/produkk/sepatu3.jpg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/sepatu3.jpg" data-src="images/produkk/sepatu3.jpg" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
@@ -670,8 +670,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-22.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-22-02.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/batik4.jpg" data-src="images/produkk/batik4.jpg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/batik4.jpg" data-src="images/produkk/batik4.jpg" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
@@ -711,8 +711,8 @@ class Produk extends Component{
                               <a href="#" className="tt-btn-wishlist" data-tooltip="Add to Wishlist" data-tposition="left" />
                               <a href="#" className="tt-btn-compare" data-tooltip="Add to Compare" data-tposition="left" />
                               <a href="product.html">
-                                <span className="tt-img"><img src="images/loader.svg" data-src="images/product/product-23.jpg" alt="" /></span>
-                                <span className="tt-img-roll-over"><img src="images/loader.svg" data-src="images/product/product-23-02.jpg" alt="" /></span>
+                                <span className="tt-img"><img src="images/produkk/batik5.jpg" data-src="images/produkk/batik5.jpg" alt="" /></span>
+                                <span className="tt-img-roll-over"><img src="images/produkk/batik5.jpg" data-src="images/produkk/batik5.jpg" alt="" /></span>
                               </a>
                             </div>
                             <div className="tt-description">
