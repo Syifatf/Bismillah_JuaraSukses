@@ -10,6 +10,9 @@ import Kategori from './component/produk/kategori';
 import Produk from './component/produk/produk';
 import Carausel from './component/carausel';
 import Navv from './component/navbar/nav';
+import Batik from './component/produk/kategori/batik';        
+import Sepatu from './component/produk/kategori/sepatu';
+import Fasion from './component/produk/kategori/fasion';
 
 
 function App() {
@@ -17,22 +20,27 @@ function App() {
     <div className="App">
       <Navv />
       {/* <Carausel /> */}
-      <AboutHome />
-      <KProduk />
+      {/* <AboutHome />
+      <KProduk /> */}
       {/* <Slidebar /> */}
      
-      <BestSeller/> 
+      {/* <BestSeller/> 
       <TrendProduk/>
       <Kategori />
       <Artikel/>
-      <Footer /> 
+      <Footer />  */}
       
       {/* navbar lanjutan */}
       
 
 {/* halaman Produk */}
 
-      <Produk />
+      {/* <Produk /> */}
+
+ {/*halaman kategori produk (fasion, batik, sepatu)  */}
+      {/* <Batik /> */}
+      {/* <Sepatu /> */}
+      <Fasion />
 
     </div>
   );

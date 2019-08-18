@@ -22,12 +22,12 @@ render() {
                       <div className="product-item">
                         <div className="product discount">
                           <div className="product_image">
-                            <img src="images/product_1.png" alt />
+                            <img src="images/produkk/batik5.jpg" alt />
                           </div>
                           <div className="favorite favorite_left" />
                           <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
                           <div className="product_info">
-                            <h6 className="product_name"><a href="single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
+                            <h6 className="product_name"><a href="single.html">Produk Batik Terbaru</a></h6>
                             <div className="product_price">$520.00<span>$590.00</span></div>
                           </div>
                         </div>
@@ -38,12 +38,12 @@ render() {
                       <div className="product-item women">
                         <div className="product">
                           <div className="product_image">
-                            <img src="images/product_2.png" alt />
+                            <img src="images/produkk/sepatu1.jpeg" alt />
                           </div>
                           <div className="favorite" />
                           <div className="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
                           <div className="product_info">
-                            <h6 className="product_name"><a href="single.html">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
+                            <h6 className="product_name"><a href="single.html">Sepatu Cantik</a></h6>
                             <div className="product_price">$610.00</div>
                           </div>
                         </div>
@@ -54,11 +54,11 @@ render() {
                       <div className="product-item women">
                         <div className="product">
                           <div className="product_image">
-                            <img src="images/product_3.png" alt />
+                            <img src="images/produkk/prod1.jpeg" alt />
                           </div>
                           <div className="favorite" />
                           <div className="product_info">
-                            <h6 className="product_name"><a href="single.html">Blue Yeti USB Microphone Blackout Edition</a></h6>
+                            <h6 className="product_name"><a href="single.html">Model Baju Manis</a></h6>
                             <div className="product_price">$120.00</div>
                           </div>
                         </div>
@@ -69,7 +69,7 @@ render() {
                       <div className="product-item accessories">
                         <div className="product">
                           <div className="product_image">
-                            <img src="images/product_4.png" alt />
+                            <img src="images/produkk/sepatu3.jpg" alt />
                           </div>
                           <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
                           <div className="favorite favorite_left" />
@@ -85,7 +85,7 @@ render() {
                       <div className="product-item women men">
                         <div className="product">
                           <div className="product_image">
-                            <img src="images/product_5.png" alt />
+                            <img src="images/produkk/batik4.jpg" alt />
                           </div>
                           <div className="favorite" />
                           <div className="product_info">
@@ -100,7 +100,7 @@ render() {
                       <div className="product-item accessories">
                         <div className="product discount">
                           <div className="product_image">
-                            <img src="images/product_6.png" alt />
+                            <img src="images/produkk/batik3.jpg" alt />
                           </div>
                           <div className="favorite favorite_left" />
                           <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
@@ -112,11 +112,11 @@ render() {
                       </div>
                     </div>
                     {/* Slide 7 */}
-                    <div className="owl-item product_slider_item">
+                    {/* <div className="owl-item product_slider_item">
                       <div className="product-item women">
                         <div className="product">
                           <div className="product_image">
-                            <img src="images/product_7.png" alt />
+                            <img src="images/produkk/batik2.jpg" alt />
                           </div>
                           <div className="favorite" />
                           <div className="product_info">
@@ -125,9 +125,9 @@ render() {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* Slide 8 */}
-                    <div className="owl-item product_slider_item">
+                    {/* <div className="owl-item product_slider_item">
                       <div className="product-item accessories">
                         <div className="product">
                           <div className="product_image">
@@ -140,9 +140,9 @@ render() {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* Slide 9 */}
-                    <div className="owl-item product_slider_item">
+                    {/* <div className="owl-item product_slider_item">
                       <div className="product-item men">
                         <div className="product">
                           <div className="product_image">
@@ -156,9 +156,9 @@ render() {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     {/* Slide 10 */}
-                    <div className="owl-item product_slider_item">
+                    {/* <div className="owl-item product_slider_item">
                       <div className="product-item men">
                         <div className="product">
                           <div className="product_image">
@@ -170,8 +170,8 @@ render() {
                             <div className="product_price">$180.00</div>
                           </div>
                         </div>
-                      </div>
-                    </div>
+                      </div> */}
+                    {/* </div> */}
                   </div>
                   {/* Slider Navigation */}
                   <div className="product_slider_nav_left product_slider_nav d-flex align-items-center justify-content-center flex-column">

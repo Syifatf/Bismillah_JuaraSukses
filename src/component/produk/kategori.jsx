@@ -15,7 +15,7 @@ class Kategori extends Component {
                       <div className="tt-background" />
                       <div className="tt-title-small">FALL-WINTER CLEARANCE SALES</div>
                       <div className="tt-title-large">GET UP TO <span className="tt-base-color">50% OFF</span></div>
-                    </div>
+                    </div>  
                   </div>
                 </a>
               </div>

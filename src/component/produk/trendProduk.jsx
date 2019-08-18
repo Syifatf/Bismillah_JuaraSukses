@@ -23,7 +23,7 @@ class TrendProduk extends Component {
                     <div className="product-item">
                       <div className="product discount">
                         <div className="product_image">
-                          <img src="images/product_1.png" alt />
+                          <img src="images/produkk/prodL1.jpg" alt />
                         </div>
                         <div className="favorite favorite_left" />
                         <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
@@ -39,7 +39,7 @@ class TrendProduk extends Component {
                     <div className="product-item women">
                       <div className="product">
                         <div className="product_image">
-                          <img src="images/product_2.png" alt />
+                          <img src="images/produkk/prodL2.jpg" alt />
                         </div>
                         <div className="favorite" />
                         <div className="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
@@ -55,7 +55,7 @@ class TrendProduk extends Component {
                     <div className="product-item women">
                       <div className="product">
                         <div className="product_image">
-                          <img src="images/product_3.png" alt />
+                          <img src="images/produkk/batik1.png" alt />
                         </div>
                         <div className="favorite" />
                         <div className="product_info">
@@ -70,7 +70,7 @@ class TrendProduk extends Component {
                     <div className="product-item accessories">
                       <div className="product">
                         <div className="product_image">
-                          <img src="images/product_4.png" alt />
+                          <img src="images/produkk/batik2.png" alt />
                         </div>
                         <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
                         <div className="favorite favorite_left" />
@@ -86,7 +86,7 @@ class TrendProduk extends Component {
                     <div className="product-item women men">
                       <div className="product">
                         <div className="product_image">
-                          <img src="images/product_5.png" alt />
+                          <img src="images/produkk/batik3.jpg" alt />
                         </div>
                         <div className="favorite" />
                         <div className="product_info">
@@ -101,7 +101,7 @@ class TrendProduk extends Component {
                     <div className="product-item accessories">
                       <div className="product discount">
                         <div className="product_image">
-                          <img src="images/product_6.png" alt />
+                          <img src="images/produkk/batik4.jpg" alt />
                         </div>
                         <div className="favorite favorite_left" />
                         <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
@@ -117,7 +117,7 @@ class TrendProduk extends Component {
                     <div className="product-item women">
                       <div className="product">
                         <div className="product_image">
-                          <img src="images/product_7.png" alt />
+                          <img src="images/produkk/prod1.jpeg" alt />
                         </div>
                         <div className="favorite" />
                         <div className="product_info">
@@ -132,7 +132,7 @@ class TrendProduk extends Component {
                     <div className="product-item accessories">
                       <div className="product">
                         <div className="product_image">
-                          <img src="images/product_8.png" alt />
+                          <img src="images/produkk/prod2.jpg" alt />
                         </div>
                         <div className="favorite" />
                         <div className="product_info">
@@ -143,7 +143,7 @@ class TrendProduk extends Component {
                     </div>
                   </div>
                   {/* Slide 9 */}
-                  <div className="owl-item product_slider_item">
+                  {/* <div className="owl-item product_slider_item">
                     <div className="product-item men">
                       <div className="product">
                         <div className="product_image">
@@ -157,9 +157,9 @@ class TrendProduk extends Component {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/* Slide 10 */}
-                  <div className="owl-item product_slider_item">
+                  {/* <div className="owl-item product_slider_item">
                     <div className="product-item men">
                       <div className="product">
                         <div className="product_image">
@@ -172,7 +172,7 @@ class TrendProduk extends Component {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 {/* Slider Navigation */}
                 <div className="product_slider_nav_left product_slider_nav d-flex align-items-center justify-content-center flex-column">
