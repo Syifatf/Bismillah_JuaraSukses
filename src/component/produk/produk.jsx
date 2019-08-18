@@ -1,3 +1,5 @@
+// all Produk untuk halaman awal produk
+
 import React, { Component } from "react";
 
 class Produk extends Component{

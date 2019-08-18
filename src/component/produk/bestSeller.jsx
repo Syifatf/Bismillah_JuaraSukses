@@ -1,3 +1,5 @@
+// halaman bagian best seller dari produk yang ditampilkan pada halaman home
+
 import React, { Component } from "react";
 
 class BestSeller extends Component {

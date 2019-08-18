@@ -1,3 +1,5 @@
+// kategori yang ada di produk, yang ditampilkan pada halaman home
+
 import React, { Component } from "react";
 
 class Kategori extends Component {

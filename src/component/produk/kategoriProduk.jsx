@@ -1,3 +1,5 @@
+// bagian halaman produk yang dapat melihat dari beberapa sisi
+
 import React, { Component } from "react";
 
 class KProduk extends Component {

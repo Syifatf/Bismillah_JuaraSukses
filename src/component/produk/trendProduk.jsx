@@ -1,3 +1,5 @@
+// halaman produk yang dapat dilihat dari produk yang sedang trend. ditampilkan di halamn home
+
 import React, { Component } from "react";
 
 class TrendProduk extends Component {

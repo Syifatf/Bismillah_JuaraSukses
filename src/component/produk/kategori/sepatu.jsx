@@ -46,7 +46,7 @@ class Sepatu extends Component{
                           <li><a href="#">Fashion</a></li>
                           <li><a href="#">Batik</a></li>
                           <li><a href="#">Sepatu</a></li>
-                          <li><a href="#">Blazers &amp; Vests</a></li>
+                          {/* <li><a href="#">Blazers &amp; Vests</a></li> */}
                         </ul>
                       </div>  
                     </div>
