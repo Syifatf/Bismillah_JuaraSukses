@@ -1,49 +1,37 @@
-import React from 'react';
-import KProduk from './component/produk/kategoriProduk';
-import BestSeller from './component/produk/bestSeller';
-import TrendProduk from './component/produk/trendProduk';
-import Artikel from './component/artikel/artikel';
-import AboutHome from './component/About/about_home';
-import Footer from './component/footer';
-import Slidebar from './component/slidebar';
-import Kategori from './component/produk/kategori';
-import Produk from './component/produk/produk';
-import Carausel from './component/carausel';
-import Navv from './component/navbar/nav';
-import Batik from './component/produk/kategori/batik';        
-import Sepatu from './component/produk/kategori/sepatu';
-import Fasion from './component/produk/kategori/fasion';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+// app.js menampilkan slider atau carausel aja dan about home 
+class App extends Component{
+  render() {
+    return (
+      <div>
+        <Router>
+          <div>
+            <h2> selamat datang di halaman pertama </h2>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <ul className="navbar-nav mr-auto">
+              <li><Link to={"/"} className="nav-link">Home</Link></li>
+              <li><Link to={"/about"} className="nav-link">About</Link></li>
+              <li><Link to={"/produk"} className="nav-link">Produk</Link></li>
+              <li><Link to={"/artikel"} className="nav-link">Artikel</Link></li>            
+              <li><Link to={"/berita"} className="nav-link">Berita</Link></li>
+            </ul>
+            </nav>
+            <hr />
 
-function App() {
-  return (
-    <div className="App">
-      <Navv />
-      {/* <Carausel /> */}
-      <AboutHome />
-      <KProduk />
-      {/* <Slidebar /> */}
-     
-      <BestSeller/> 
-      <TrendProduk/>
-      <Kategori />
-      <Artikel/>
-      <Footer /> 
-      
-      {/* navbar lanjutan */}
-      
-
-{/* halaman Produk */}
-
-      {/* <Produk />*/} 
-
- {/*halaman kategori produk (fasion, batik, sepatu)  */}
-      {/* <Batik /> */}
-      {/* <Sepatu /> */}
-      {/* <Fasion /> */}
-
-    </div>
+            <Switch>
+              <Route exact path='/' Component={Home} />
+              <Route exact path='/about' Component={About} />
+              <Route exact path='/produk' Component={Produk} />
+              <Route exact path='/artikel' Component={Artikel} />
+              <Route exact path='/berita' Component={Berita} />
+            </Switch>
+          </div>
+        </Router>
+      </div>
   );
+}
 }
 
 export default App;

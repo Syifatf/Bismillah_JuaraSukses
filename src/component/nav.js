@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Nav } from 'react-bootstrap';
+import Produk from './produk/Produk';
 
-class Navv extends Component {
+class Navbar extends Component {
   render() {
       return (
           <header>
@@ -448,12 +449,25 @@ class Navv extends Component {
               {/* tt-menu */}
               <div className="tt-desctop-parent-menu tt-parent-box">
                   <div className="tt-desctop-menu">
-                    <nav>
-                      <Nav defaultActiveKey="index.html" as="ul">
+                    <nav className="navbar navbar-default">
+                    <div className="Container-fluid">
+                    <div className="navbar-header">
+                      <link className="nav navbar-nav" to="/">Home</link>
+                    </div>
+                    <ul className="nav bavbar-nav">
+                      <li><link to="/">Home</link></li>
+                      <li><link to="/produk">Produk</link></li>
+                      <li><link to="/About">About</link></li>
+                      <li><link to="/produk">Artikel</link></li>
+                      <li><link to="/produk">Event</link></li>
+                      <li><link to="/produk">Berita</link></li>
+                    </ul>
+                    </div>
+                      {/* <Nav defaultActiveKey="index.html" as="ul"> */}
                         {/* <Nav.Item className={props.classname} as="li">
                             <Nav.Link href={props.link}>{props.title}</Nav.Link>
                           </Nav.Item> */}
-                        <Nav.Item className="dropdown tt-megamenu-col-02 selected" as="li">
+                        {/* <Nav.Item className="dropdown tt-megamenu-col-02 selected" as="li">
                           <Nav.Link href="index.html">HOME</Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="dropdown megamenu" as="li">
@@ -468,7 +482,7 @@ class Navv extends Component {
                         <Nav.Item className="dropdown tt-megamenu" as="li">
                           <Nav.Link href="berita.html">BERITA</Nav.Link>
                         </Nav.Item>
-                      </Nav>
+                      </Nav> */}
                     </nav>
                   </div>
                 </div>
@@ -719,4 +733,4 @@ class Navv extends Component {
   }
 }
 
-export default Navv;
+export default Navbar;
