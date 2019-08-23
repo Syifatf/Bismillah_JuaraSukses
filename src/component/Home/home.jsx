@@ -16,24 +16,21 @@ import Fasion from './component/produk/kategori/fasion';
 import { Navbar } from 'react-bootstrap';
 
 
-class App extends Component{
+class Home extends Component{
   render() {
   return (
-    <div>
-          // <Navv />
-      // <Carausel />
-      // <AboutHome />
-      // <KProduk />
-      // <Slidebar />
+    <div className="App">
+      <Navbar />
+      <Carausel />
+      <AboutHome />
+      <KProduk />
+      <Slidebar />
      
-      // <BestSeller/> 
-      // <TrendProduk/>
-      // <Kategori />
-      // <Artikel/>
-      // <Footer /> 
-      
-      // {/* navbar lanjutan */}
-      
+      <BestSeller /> 
+      <TrendProduk />
+      <Kategori />
+      <Artikel />
+      <Footer /> 
 
 {/* halaman Produk */}
 
@@ -54,4 +51,4 @@ const Home = () => (
   </div>
 
 );
-export default App;
+export default Home;

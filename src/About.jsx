@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import Navbarr from './component/nav';
 
 class About extends Component {
   render() {
   return (
     <div>
+    <Navbarr />
+    <div className="About">
         <section className="bg-title-page p-t-40 p-b-50 flex-col-c-m" style={{backgroundImage: 'url(images/heading-pages-06.jpg)'}}>
           <h2 className="l-text2 t-center">
             About
@@ -37,6 +40,7 @@ class About extends Component {
             </div>
           </div>
         </section>
+    </div>
     </div>
   );
 }

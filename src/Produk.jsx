@@ -6,7 +6,7 @@ class Produk extends Component{
   render() {
   return (
       <div>
-        <div>
+        <div className="Produk">
           <div id="tt-pageContent">
             <div className="container-indent">
               <div className="container">
@@ -14,7 +14,7 @@ class Produk extends Component{
                   <div className="col-md-4 col-lg-3 col-xl-3 leftColumn aside">
                     <div className="tt-btn-col-close">
                       <a href="#">Close</a>
-                    </div>
+                    </div>  
                     <div className="tt-collapse open tt-filter-detach-option">
                       <div className="tt-collapse-content">
                         <div className="filters-mobile">

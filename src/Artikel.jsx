@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Artikel extends Component {
 render() {
   return (
-      <div>
+      <div className="Artikel">
         <section className="section-blog bg-white p-t-115 p-b-123">
           <div className="container">
             <div className="title-section-ourmenu t-center m-b-22">

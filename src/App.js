@@ -1,37 +1,82 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import KProduk from './component/produk/kategoriProduk';
+import BestSeller from './component/produk/bestSeller';
+import TrendProduk from './component/produk/trendProduk';
+import Artikel from './Artikel';
+import AboutHome from './component/About/about_home';
+import Footer from './component/footer';
+import Slidebar from './component/slidebar';
+import Kategori from './component/produk/kategori';
+import Ba from './component/navbar';
+import Navbarr from './component/nav';
+
+import About from './About';
+import Produk from './Produk';
+import Agenda from './component/agenda';
+// import Produk from './component/produk/Produk';
+// import Carausel from './component/carausel';
+// import Navv from './component/nav';
+// import Batik from './component/produk/kategori/batik';        
+// import Sepatu from './component/produk/kategori/sepatu';
+// import Fasion from './component/produk/kategori/fasion';
+// import { Navbar } from 'react-bootstrap';
+// import Ba from './component/navbar';
 
 // app.js menampilkan slider atau carausel aja dan about home 
-class App extends Component{
-  render() {
-    return (
-      <div>
-        <Router>
-          <div>
-            <h2> selamat datang di halaman pertama </h2>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <ul className="navbar-nav mr-auto">
-              <li><Link to={"/"} className="nav-link">Home</Link></li>
-              <li><Link to={"/about"} className="nav-link">About</Link></li>
-              <li><Link to={"/produk"} className="nav-link">Produk</Link></li>
-              <li><Link to={"/artikel"} className="nav-link">Artikel</Link></li>            
-              <li><Link to={"/berita"} className="nav-link">Berita</Link></li>
-            </ul>
-            </nav>
-            <hr />
-
-            <Switch>
-              <Route exact path='/' Component={Home} />
-              <Route exact path='/about' Component={About} />
-              <Route exact path='/produk' Component={Produk} />
-              <Route exact path='/artikel' Component={Artikel} />
-              <Route exact path='/berita' Component={Berita} />
-            </Switch>
-          </div>
-        </Router>
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbarr />
+        <Ba />
+        {/* <Switch>
+        
+          <Route path="/" exact Component={Home} />
+          <Route path="/about" Component={About} />
+          <Route path="/produk" Component={Produk} />
+        </Switch> */}
+        <Agenda />
+        <Footer />
+          
       </div>
+    </Router>
+ 
+
+// <Navbarr />
+//  <Ba />
+//  <Ba />
+// <Carausel />
+// <AboutHome />
+// <KProduk />
+// <Slidebar />
+
+//  <BestSeller/> 
+// <TrendProduk/>
+// <Kategori />
+// <Artikel/>
+// <Footer />
+
+// <Produk />
+
+//  <Batik /> 
+//  <Sepatu />
+// <Fasion />
+
+   
+
   );
 }
-}
+
+const Home = () => (
+  <div>
+    <h1>home</h1>h
+  </div>
+);
 
 export default App;
+
+
+
+
