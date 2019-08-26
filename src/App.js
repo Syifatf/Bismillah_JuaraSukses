@@ -11,6 +11,7 @@ import Slidebar from './component/slidebar';
 import Kategori from './component/produk/kategori';
 import Ba from './component/navbar';
 import Navbarr from './component/nav';
+import colour from './images/colour.png';
 
 import About from './About';
 import Produk from './Produk';
@@ -28,7 +29,7 @@ import Agenda from './component/agenda';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{backgroundImage: 'url('+ colour +')'}}>
         <Navbarr />
         <AboutHome />
         <KProduk />
