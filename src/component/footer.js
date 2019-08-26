@@ -95,10 +95,10 @@ class Footer extends Component {
                     </h4>
                     <div className="tt-collapse-content">
                       <address>
-                        <p><span>Address:</span> 2548 Broaddus Maple Court Avenue, Madisonville KY 4783, United States of America</p>
+                        <p><span>Address:</span> Jawa Barat </p>
                         <p><span>Phone:</span> +777 2345 7885;  +777 2345 7886</p>
                         <p><span>Hours:</span> 7 Days a week from 10 am to 6 pm</p>
-                        <p><span>E-mail:</span> <a href="mailto:info@mydomain.com">info@mydomain.com</a></p>
+                        <p><span>E-mail:</span> <a href="mailto:umkmJuara@gmail.com">umkmJuara@gmail.com</a></p>
                       </address>
                     </div>
                   </div>
@@ -129,7 +129,7 @@ class Footer extends Component {
               <div className="tt-col-right">
                 <div className="tt-col-item">
                   {/* payment-list */}
-                  <ul className="tt-payment-list">
+                  {/* <ul className="tt-payment-list">
                     <li><a href="page404.html"><span className="icon-Stripe"><span className="path1" /><span className="path2" /><span className="path3" /><span className="path4" /><span className="path5" /><span className="path6" /><span className="path7" /><span className="path8" /><span className="path9" /><span className="path10" /><span className="path11" /><span className="path12" />
                         </span></a></li>
                     <li><a href="page404.html"> <span className="icon-paypal-2">
@@ -147,7 +147,7 @@ class Footer extends Component {
                     <li><a href="page404.html"><span className="icon-american-express">
                           <span className="path1" /><span className="path2" /><span className="path3" /><span className="path4" /><span className="path5" /><span className="path6" /><span className="path7" /><span className="path8" /><span className="path9" /><span className="path10" /><span className="path11" />
                         </span></a></li>
-                  </ul>
+                  </ul> */}
                   {/* /payment-list */}
                 </div>
               </div>

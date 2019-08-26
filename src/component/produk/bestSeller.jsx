@@ -24,7 +24,7 @@ render() {
                       <div className="product-item">
                         <div className="product discount">
                           <div className="product_image">
-                            <img src="images/produkk/batik5.jpg" alt />
+                            <img src="images/produkk/buku.jpg" alt />
                           </div>
                           <div className="favorite favorite_left" />
                           <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
@@ -40,7 +40,7 @@ render() {
                       <div className="product-item women">
                         <div className="product">
                           <div className="product_image">
-                            <img src="images/produkk/sepatu1.jpeg" alt />
+                            <img src="images/produkk/buku.jpg" alt />
                           </div>
                           <div className="favorite" />
                           <div className="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
@@ -56,7 +56,7 @@ render() {
                       <div className="product-item women">
                         <div className="product">
                           <div className="product_image">
-                            <img src="images/produkk/prod1.jpeg" alt />
+                            <img src="images/produkk/buku.jpg" alt />
                           </div>
                           <div className="favorite" />
                           <div className="product_info">
@@ -71,7 +71,7 @@ render() {
                       <div className="product-item accessories">
                         <div className="product">
                           <div className="product_image">
-                            <img src="images/produkk/sepatu3.jpg" alt />
+                            <img src="images/produkk/buku.jpg" alt />
                           </div>
                           <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
                           <div className="favorite favorite_left" />
@@ -87,7 +87,7 @@ render() {
                       <div className="product-item women men">
                         <div className="product">
                           <div className="product_image">
-                            <img src="images/produkk/batik4.jpg" alt />
+                            <img src="images/produkk/buku.jpg" alt />
                           </div>
                           <div className="favorite" />
                           <div className="product_info">
@@ -102,7 +102,7 @@ render() {
                       <div className="product-item accessories">
                         <div className="product discount">
                           <div className="product_image">
-                            <img src="images/produkk/batik3.jpg" alt />
+                            <img src="images/produkk/buku.jpg" alt />
                           </div>
                           <div className="favorite favorite_left" />
                           <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>

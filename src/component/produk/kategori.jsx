@@ -11,7 +11,7 @@ class Kategori extends Component {
             <div className="row tt-layout-promo-box">
               <div className="col-sm-6 col-md-4">
                 <a href="listing-left-column.html" className="tt-promo-box">
-                  <img src="images/loader.svg" data-src="images/promo/index-promo-img-07.jpg" alt="" />
+                  <img src="images/produkk/50.jpg" data-src="images/produkk/50.jpg" alt="" />
                   <div className="tt-description">
                     <div className="tt-description-wrapper">
                       <div className="tt-background" />

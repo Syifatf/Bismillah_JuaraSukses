@@ -30,14 +30,20 @@ function App() {
     <Router>
       <div className="App">
         <Navbarr />
-        <Ba />
+        <AboutHome />
+        <KProduk />
+        <BestSeller/>
+        <TrendProduk/>
+        <Kategori />
+        <Artikel/>
+        {/* <Ba /> */}
         {/* <Switch>
         
           <Route path="/" exact Component={Home} />
           <Route path="/about" Component={About} />
           <Route path="/produk" Component={Produk} />
         </Switch> */}
-        <Agenda />
+        {/* <Agenda /> */}
         <Footer />
           
       </div>

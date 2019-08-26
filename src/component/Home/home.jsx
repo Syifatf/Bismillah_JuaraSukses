@@ -19,7 +19,7 @@ import { Navbar } from 'react-bootstrap';
 class Home extends Component{
   render() {
   return (
-    <div className="App">
+    <div className="App-home">
       <Navbar />
       <Carausel />
       <AboutHome />

@@ -70,6 +70,12 @@ closeMenu(event) {
                           <Nav.Link href="berita.html">BERITA</Nav.Link>
                         </Nav.Item>
                         <NavItem>
+
+                        {/* <NavLink to="/">Home</NavLink>
+                        <NavLink to="/about">About</NavLink>
+                        <NavLink to="/produk">Produk</NavLink>
+                        <NavLink to="/produk">Artikel</NavLink> */}
+
                                 {/* tt-account */}
                   <div className="tt-desctop-parent-account tt-parent-box">
                     <div className="tt-account">

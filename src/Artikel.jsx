@@ -19,7 +19,7 @@ render() {
                 {/* Block1 */}
                 <div className="blo1">
                   <div className="wrap-pic-blo1 bo-rad-10 hov-img-zoom pos-relative">
-                    <a href="blog-detail.html"><img src="images/blog-01.jpg" alt="IMG-INTRO" /></a>
+                    <a href="blog-detail.html"><img src="images/produkk/artikel.jpg" alt="IMG-INTRO" /></a>
                     <div className="time-blog">
                       21 Dec 2017
                     </div>
@@ -42,7 +42,7 @@ render() {
                 {/* Block1 */}
                 <div className="blo1">
                   <div className="wrap-pic-blo1 bo-rad-10 hov-img-zoom pos-relative">
-                    <a href="blog-detail.html"><img src="images/blog-02.jpg" alt="IMG-INTRO" /></a>
+                    <a href="blog-detail.html"><img src="images/produkk/umkm1.jpeg" alt="IMG-INTRO" /></a>
                     <div className="time-blog">
                       15 Dec 2017
                     </div>
@@ -65,7 +65,7 @@ render() {
                 {/* Block1 */}
                 <div className="blo1">
                   <div className="wrap-pic-blo1 bo-rad-10 hov-img-zoom pos-relative">
-                    <a href="blog-detail.html"><img src="images/blog-03.jpg" alt="IMG-INTRO" /></a>
+                    <a href="blog-detail.html"><img src="images/produkk/umkm3.jpeg" alt="IMG-INTRO" /></a>
                     <div className="time-blog">
                       12 Dec 2017
                     </div>
