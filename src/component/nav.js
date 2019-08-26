@@ -55,14 +55,16 @@ closeMenu(event) {
                             <Nav.Link href={props.link}>{props.title}</Nav.Link>
                           </Nav.Item> */}
                         <Nav.Item className="dropdown tt-megamenu-col-02 selected" as="li">
-                          <Nav.Link href="index.html">HOME</Nav.Link>
+                          <Nav.Link href="/">HOME</Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="dropdown megamenu" as="li">
+                          <Nav.Link href="index.html">ABOUT</Nav.Link>
+                        </Nav.Item><Nav.Item className="dropdown megamenu" as="li">
                           <Nav.Link href="index.html">PRODUK</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item className="dropdown megamenu" as="li">
+                        {/* <Nav.Item className="dropdown megamenu" as="li">
                           <Nav.Link href="produk.html">ARTIKEL</Nav.Link>
-                        </Nav.Item>
+                        </Nav.Item> */}
                         <Nav.Item className="dropdown tt-megamenu" as="li">
                           <Nav.Link href="artikel.html">EVENT</Nav.Link>
                         </Nav.Item>
