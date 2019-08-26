@@ -46,6 +46,8 @@ function App() {
         </Switch> */}
         {/* <Agenda /> */}
         <Footer />
+
+        {/* <About /> */}
           
       </div>
     </Router>

@@ -76,7 +76,7 @@ render() {
                           <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
                           <div className="favorite favorite_left" />
                           <div className="product_info">
-                            <h6 className="product_name"><a href="single.html">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h6>
+                            <h6 className="product_name"><a href="single.html">DYMO LabelWriter 450 Turbo</a></h6>
                             <div className="product_price">$410.00</div>
                           </div>
                         </div>
